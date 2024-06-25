@@ -4,4 +4,12 @@
     width: var(--box-size);
     height: 30px;
     background-color: var(--primary-color);
+
+    &__mouse {
+        position: absolute;
+        
+        width: 15px;
+        height: 15px;
+        background-color: antiquewhite;
+    }
 }
